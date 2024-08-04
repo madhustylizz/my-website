@@ -373,22 +373,97 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+/* Projects section */
+.projects .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-left: 3rem;
+}
 
+.projects .box-container .box {
+    width: 100%;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+    background: #222;
+    text-align: left;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
 
+.projects .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
 
+.projects .box-container .box p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+.certifications {
+    padding: 5rem 2rem;
+    background: #111;
+}
 
+.certifications .heading {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    color: #fff;
+}
 
+.certifications .heading span {
+    color: var(--yellow);
+}
 
+.cert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.cert-box {
+    margin: 2rem;
+    padding: 2rem;
+    background: #222;
+    border-radius: 1rem;
+    text-align: center;
+}
 
+.cert-box img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 1rem;
+}
 
+.cert-box h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+.about .certificates {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 
+.about .certificates .cert-box {
+    flex: 0 0 48%;
+    text-align: center;
+}
 
-
-
-
-
-
+.about .certificates .cert-box img {
+    width: 100%;
+    border-radius: 1rem;
+}
 
 
 /* media queries  */
@@ -455,8 +530,50 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
+    .projects .box-container .box{
+        width:100%;
+    }
+
     .contact .row form{
         margin:3rem 0;
     }
 
  }
+
+ .education .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.education .box {
+    flex: 1 1 100%;
+    background: #333;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education .box i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.education .box span {
+    display: block;
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+.education .box h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.education .box p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
