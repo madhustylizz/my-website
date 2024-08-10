@@ -373,7 +373,7 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-/* Projects section
+/* Projects section */
 .projects .box-container {
     display: flex;
     align-items: center;
@@ -407,8 +407,6 @@ header .navbar ul li a:hover{
     color: #eee;
     padding: 1rem 0;
 }
-
-*/
 .certifications {
     padding: 5rem 2rem;
     background: #111;
@@ -468,7 +466,7 @@ header .navbar ul li a:hover{
 }
 
 
-/* media queries  
+/* media queries  */
 
 @media (max-width:1200px){
 
@@ -540,7 +538,7 @@ header .navbar ul li a:hover{
         margin:3rem 0;
     }
 
- } */
+ }
 
  .education .box-container {
     display: flex;
@@ -579,99 +577,3 @@ header .navbar ul li a:hover{
     font-size: 1rem;
     line-height: 1.5;
 }
-
-/* Projects section */
-.projects .box-container {
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
-    padding-left: 3rem;
-}
-
-.projects .box-container .box {
-    width: 48%; /* Set each box to 50% width */
-    margin: 2rem 1%; /* Adjust margin to space out boxes */
-    position: relative;
-    background: #222;
-    text-align: left;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    height: 400px; /* Set a fixed height for the box */
-}
-
-.projects .box-container .box .box-image {
-    width: 100%;
-    height: 50%; /* Top 50% as image */
-    background-size: cover;
-    background-position: center;
-}
-
-.projects .box-container .box .box-content {
-    padding: 2rem;
-    height: 50%; /* Bottom 50% for content */
-    overflow: auto; /* Ensure content fits within the box */
-}
-
-.projects .box-container .box h3 {
-    font-size: 2rem;
-    color: #fff;
-    padding-top: 0.5rem;
-}
-
-.projects .box-container .box p {
-    font-size: 1.4rem;
-    color: #eee;
-    padding: 1rem 0;
-}
-
-/* Media queries */
-@media (max-width: 768px) {
-    .projects .box-container .box {
-        width: 100%; /* Full width on smaller screens */
-        margin: 2rem 0;
-        height: auto; /* Auto height for responsiveness */
-    }
-
-    .projects .box-container .box .box-image {
-        height: 200px; /* Adjust height for smaller screens */
-    }
-
-    .projects .box-container .box .box-content {
-        height: auto; /* Allow content to expand naturally */
-    }
-}
-
-@media (max-width: 768px) {
-    .certifications {
-        padding: 3rem 1rem; /* Reduce padding for smaller screens */
-    }
-
-    .certifications .heading {
-        font-size: 3rem; /* Adjust font size for heading */
-        margin-bottom: 2rem; /* Reduce margin for heading */
-    }
-
-    .cert-container {
-        flex-direction: column; /* Keep the flex direction column for single-column layout */
-        align-items: stretch; /* Ensure the items stretch across the width */
-    }
-
-    .cert-box {
-        margin: 1rem 0; /* Reduce margin for better spacing */
-        padding: 1.5rem; /* Adjust padding for better fit */
-    }
-
-    .cert-box img {
-        max-width: 100%; /* Ensure the image takes full width */
-        height: auto; /* Maintain the aspect ratio */
-    }
-
-    .cert-box h3 {
-        font-size: 1.8rem; /* Slightly smaller font size for the heading */
-    }
-}
-
