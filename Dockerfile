@@ -3,4 +3,3 @@ FROM httpd:alpine
 
 # Copy website files to Apache's public folder
 COPY . /usr/local/apache2/htdocs/
-COPY vhost.conf /usr/local/apache2/conf/httpd.conf
